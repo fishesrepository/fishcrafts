@@ -1,5 +1,5 @@
 :root {
-    --page-bg: url(/images/background-texture.jpg); 
+    --page-bg: url(images/background-texture.jpg); 
     --page-bg-color: black;
     --container-bg: #28251f;
     --container-block-bg: #302f2d; 
@@ -116,7 +116,7 @@ th {
     grid-template-areas:
         "left-side middle-column right-side"
         "footer footer footer";
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 5fr 1fr;
     gap: 0.5rem;
     background-color: var(--container-bg);
     padding: 0.5rem;
@@ -160,6 +160,7 @@ th {
     width:50px;
     height:50px;
     justify-self: center;
+    margin:auto;
     margin-bottom: 0.5rem;
     margin-top:0.5rem;
     border:0px solid cyan
@@ -204,10 +205,10 @@ th {
     padding:0px;
     background-image: url(images/fishcraftscornerbanner.png);
     background-size: cover;
-    height:150px;
-    width:500px;
+    width:510px;
+    height:105px;
     margin:auto;
-    margin-bottom:1rem;
+    margin-bottom:10px;
 }
 
 .container div.content {
@@ -234,6 +235,12 @@ th {
     border:0px solid black;
     display:flex;
     justify-content: space-around;
+}
+
+.content-deco img {
+    width:100px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .container div.right-side {
@@ -324,7 +331,7 @@ th {
     padding:0px;
 }
 
-@media screen and (max-width: 745px) {
+@media screen and (max-width: 775px) {
 
     details[open] summary ~ * {
         animation: sweep .25s ease-in-out;
@@ -345,7 +352,7 @@ th {
         background-color: var(--container-bg);
         padding: 5px;
         border: 1px solid var(--border-color);
-        width:500px;
+        width:530px;
         margin:auto;
     }
 

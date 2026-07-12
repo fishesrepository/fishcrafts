@@ -14,7 +14,7 @@
 }
 
 
-@media screen and (max-width: 745px) {
+@media screen and (max-width: 775px) {
 
     details[open] summary ~ * {
         animation: sweep .25s ease-in-out;
@@ -25,7 +25,7 @@
         100%  {opacity: 1; margin-top: 0px}
     }
 
-   .container {
+    .container {
         display: grid;
         grid-template-areas:
             "middle-column"
@@ -33,13 +33,10 @@
         grid-template-columns: 1fr;
         gap: 5px;
         background-color: var(--container-bg);
+        padding: 5px;
         border: 1px solid var(--border-color);
-        width:100%;
+        width:530px;
         margin:auto;
-    }
-
-    .container div.header {
-        width:300px;
     }
 
     .container div.left-side {

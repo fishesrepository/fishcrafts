@@ -219,12 +219,25 @@ const headerEl = `
     </details>
   </div>
     
+      
 `;
 
 // Insert your footer HTML inside these ``. You can use HTML as usual. 
 // You don't need to use the <footer> element, but I recommend it.
 const footerEl = `
 
+</div>
+
+<div class="right-side">
+  <div class="gifs">
+    <img src="images/francobabypng.png">
+    <img src="images/francobabypng.png">
+    <img src="images/francobabypng.png">
+  </div>
+
+  <div class="extra-space">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sollicitudin ex a consequat congue.</p>
+  </div>
 </div>
 
 <div class="footer">
