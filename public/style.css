@@ -223,6 +223,7 @@ th {
 .container div.content img {
     display: block;
     margin: auto;
+    max-width:100%;
 }
 
 .container div.content-deco {

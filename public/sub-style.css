@@ -11,7 +11,16 @@
     border-radius: 15px;
     margin:2rem;
     margin-top:0.5rem;
+    width:auto;
 }
+
+.container div.middle-column {
+    margin:0px;
+    padding:0px;
+    background: none;
+    min-width:530px;
+}
+
 
 
 @media screen and (max-width: 775px) {
@@ -35,7 +44,7 @@
         background-color: var(--container-bg);
         padding: 5px;
         border: 1px solid var(--border-color);
-        width:530px;
+        max-width:530px;
         margin:auto;
     }
 
