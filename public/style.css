@@ -231,16 +231,14 @@ th {
     padding:0px;
     margin-bottom:0.2rem;
     background-color: transparent;
-    border:none;
-    border:0px solid black;
-    display:flex;
-    justify-content: space-around;
+    border:0px solid red;
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .content-deco img {
-    width:100px;
-    display: flex;
-    justify-content: space-evenly;
+    width:130px;
 }
 
 .container div.right-side {
